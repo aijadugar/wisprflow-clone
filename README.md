@@ -31,8 +31,8 @@ chosen mode (email / chat / notes).
 
 ```bash
 pip install -r requirements.txt
-export WHISPER_REPO_ID="your-hf-username/wispr-clone-whisper"
-export LLM_REPO_ID="your-hf-username/wispr-clone-llm"
+export WHISPER_REPO_ID="aijadugar/wispr-clone-whisper"
+export LLM_REPO_ID="aijadugar/wispr-clone-llm"
 python app.py
 ```
 
