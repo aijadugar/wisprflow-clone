@@ -1,4 +1,8 @@
----
+![](./assets/wf-clone.png)
+
+
+# 🎙️ Wispr Flow Clone
+
 title: Wispr Flow Clone
 emoji: 🎙️
 colorFrom: blue
@@ -8,7 +12,14 @@ sdk_version: 6.26.0
 python_version: "3.10"
 app_file: app.py
 pinned: false
----
+
+A voice-to-text writing assistant inspired by Wispr Flow.
+
+The pipeline uses two Hugging Face models:
+
+- **ASR:** [`aijadugar/wisprflow-clone-whisper`](https://huggingface.co/aijadugar/wisprflow-clone-whisper)
+- **LLM:** [`aijadugar/wisprflow-clone-llm`](https://huggingface.co/aijadugar/wisprflow-clone-llm)
+
 
 # Voice → Clean Text
 
